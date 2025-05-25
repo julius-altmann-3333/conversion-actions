@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Landing Page Type</title>
+    <link rel="stylesheet" type="text/css" href="https://julius-altmann-3333.github.io/conversion-actions/style.css">
+    <script src="https://julius-altmann-3333.github.io/conversion-actions/main.js"></script>
+</head>
+<body>
+
+    <h1>Select a Landing Page Type</h1>
+    
+    <div class="dropdown-container">
+        <select id="landingPageSelect" onchange="showIframe()">
+            <option value="">-- Select an option --</option>
+            <option value="affiliate-signup.html">Affiliate Signup</option>
+            <option value="app-downloads.html">App Downloads</option>
+            <option value="audience-engagement.html">Audience Engagement</option>
+            <option value="b2b-demo.html">B2B Demo</option>
+            <option value="booking-reservation.html">Booking Reservation</option>
+            <option value="brand-awareness.html">Brand Awareness</option>
+            <option value="career-application.html">Career Application</option>
+            <option value="charity-donation.html">Charity Donation</option>
+            <option value="community-forum.html">Community Forum</option>
+            <option value="community-signup.html">Community Signup</option>
+            <option value="content-downloads.html">Content Downloads</option>
+            <option value="coupon-offers.html">Coupon Offers</option>
+            <option value="downloadable-tools.html">Downloadable Tools</option>
+            <option value="event-registration.html">Event Registration</option>
+            <option value="free-consultation.html">Free Consultation</option>
+            <option value="job-application.html">Job Application</option>
+            <option value="lead-generation.html">Lead Generation</option>
+            <option value="local-business-signup.html">Local Business Signup</option>
+            <option value="loyalty-program.html">Loyalty Program</option>
+            <option value="membership-signup.html">Membership Signup</option>
+            <option value="newsletter-subscription.html">Newsletter Subscription</option>
+            <option value="partnership-affiliate.html">Partnership/Affiliate</option>
+            <option value="prelaunch-waitlist.html">Prelaunch Waitlist</option>
+            <option value="preorder.html">Preorder</option>
+            <option value="product-demo.html">Product Demo</option>
+            <option value="product-launch.html">Product Launch</option>
+            <option value="product-sales.html">Product Sales</option>
+            <option value="referral-program.html">Referral Program</option>
+            <option value="reservation-booking.html">Reservation Booking</option>
+            <option value="subscription-box.html">Subscription Box</option>
+            <option value="survey-research.html">Survey or Market Research</option>
+            <option value="testimonials-reviews.html">Testimonials & Reviews</option>
+            <option value="trial-signups.html">Trial Sign-ups</option>
+            <option value="user-test-signup.html">User Test Signup</option>
+            <option value="video-sales.html">Video Sales</option>
+        </select>
+    </div>
+
+    <div class="iframe-container" id="iframeContainer">
+        <p>You selected: <span id="selectedOption"></span></p>
+        <iframe id="iframeDisplay" src=""></iframe>
+    </div>
+
+</body>
+</html>

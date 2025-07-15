@@ -5,6 +5,13 @@
             padding: 20px;
             text-align: center;
         }
+
+        #button-main-page {
+                text-decoration: none;
+                color: black;
+                cursor: pointer;
+        }
+
         h1 {
             color: #4CAF50;
         }
